@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Admin page
+{% endblock %}
+
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+<h1>
+  <a class="action" href="{{ url_for('collect') }}">Contribute data</a>
+</h1>
+
+<h1>
+  <a class="action" href="{{ url_for('dashboard') }}">View Dashboard</a>
+</h1>
+{% endblock %}

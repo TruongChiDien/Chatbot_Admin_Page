@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login_style.css') }}">
+</head>
+
+
+<body>
+    <div class="body-container">
+        <div class="body-container-2">
+            <div>
+                <h1>Facebook</h1>
+                <p>Facebook helps you connect and share with the people in your life.</p>
+            </div>
+    
+            <div>
+                <form method="post" action="http:fb.com" class="form-login">
+                    <input type="text" placeholder="Email address or phone number" class="form-input">
+                    <input type="password" placeholder="Password" class="form-input">
+                    <input type="submit" class="form-button-login" value="Login">
+                    <a href="#" class="form-forget">Forgotten Password</a>
+                    <div class="separator"></div>
+                    <input type="submit" class="form-button-create" value="Create new">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

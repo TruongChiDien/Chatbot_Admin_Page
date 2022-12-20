@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Collect Data{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="title">Intent</label>
+
+    <input name="intent" id="intent" value="" required> 
+
+    <label for="message">Message</label>
+
+    <textarea name="message" id="message"></textarea>
+    
+    <input type="submit" value="Save">
+  </form>
+  <hr>
+{% endblock %}

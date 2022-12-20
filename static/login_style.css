@@ -1,0 +1,99 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.body-container {
+    margin-top: 200px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 28px;
+    width: 500px;
+}
+
+.form-login {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 14px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.form-input {
+    padding: 14px 0;
+    padding-left: 6px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.form-button-login {
+    padding: 12px 0;
+    color: white;
+    background-color: #166fe5;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.form-button-login:hover , .form-button-create:hover {
+    cursor:pointer;
+}
+
+.form-forget {
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.form-forget:hover {
+    text-decoration: underline;
+}
+
+
+.form-button-create {
+    padding: 12px 0;
+    color: white;
+    background-color: #36a420;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    width: 70%;
+}
+
+.separator {
+    width: 100%;
+    border-top: 2px #ddd solid;
+    margin: 20px 0;
+}
